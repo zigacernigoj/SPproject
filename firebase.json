@@ -1,0 +1,9 @@
+{
+  "firebase": "laratest",
+  "public": "public",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

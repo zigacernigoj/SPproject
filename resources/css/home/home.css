@@ -1,0 +1,469 @@
+body {
+    /*padding-right: 15px;*/
+    background-color: lightblue;
+    font-size: 20px;
+    font-family: 'Indie Flower';
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*.container-fluid{*/
+    /*padding-left: 0;*/
+/*}*/
+
+
+/* start of - navbar/menu */
+.navbar {
+    text-align: center;
+    background-color: lightblue;
+    border-style: none;
+    color: black;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+/**/
+
+.navbar-default .navbar-toggle {
+    /*border-color: darkblue;*/
+    border: none;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: darkblue;
+}
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: white;
+}
+
+
+.navbar .navbar-brand  {
+    /*margin-left: 10px;
+    margin-right: 10px;*/
+}
+
+.navbar .navbar-header {
+    height: 120px;
+    width: 120px;
+}
+
+.navbar-default .navbar-header >a {
+    color: black;
+    border-bottom-right-radius: 110px;
+    height: 120px;
+    width: 120px;
+    /*border: 1px solid darkblue;*/
+    /*background-color: CornflowerBlue;*/
+    text-align: left;
+
+    background: #33CCFF;
+    /*
+    border: 1px solid blue;
+    box-shadow: inset 0px 0px 15px 3px blue;*/
+}
+
+.navbar-default .navbar-header >a:hover,
+.navbar-default .navbar-header >a:focus {
+    background-color: darkblue;
+    color: white;
+}
+
+/**/
+
+
+/**/
+
+.navbar-collapse-right >a {
+    color: black;
+
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /*border: 1px solid darkblue;*/
+    /*background-color: CornflowerBlue;*/
+
+    background: #33CCFF;
+
+    /*
+    border: 1px solid blue;
+    box-shadow: inset 0px 0px 15px 3px blue;
+    */
+
+    margin-top: 0px;
+}
+
+.navbar-collapse-right >a:hover,
+.navbar-collapse-right >a:focus {
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+}
+
+
+/**/
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    /*height: 80px;*/
+}
+
+.navbar .navbar-nav >li  {
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.navbar-default .navbar-nav >li >a {
+    color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    /*border: 1px solid darkblue;*/
+    /*background-color: CornflowerBlue;*/
+
+    background: #33CCFF;
+    /*border: 1px solid blue;
+    box-shadow: inset 0px 0px 15px 3px blue;*/
+
+    /*border-top: 0px;*/
+}
+
+.navbar-default .navbar-nav >li >a:hover,
+.navbar-default .navbar-nav >li >a:focus {
+    background-color: darkblue;
+    color: white;
+}
+
+
+@media (min-width: 1000px) {
+    .navbar-default .navbar-nav >li >a {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+    .navbar-default .navbar-nav >li >a:hover,
+    .navbar-default .navbar-nav >li >a:focus {
+        height: 58px;
+    }
+}
+/* end of - navbar/menu */
+
+
+/* start of - main areas */
+#maincenter {
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+.newfield {
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+
+    /*display: table;*/ /* NE DELA */
+}
+
+.newfield:hover {
+    cursor: pointer;
+}
+
+.newinner {
+    width: 100%;
+    position: absolute;
+    padding: 15%;
+    text-align: center;
+
+    /*display: table-cell;*/ /* NE DELA */
+    /*vertical-align: middle;*/
+
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.newfield:hover .newinner {
+    font-weight: bold;
+}
+
+
+@media (max-width: 767px) {
+    .newfield {
+        /*left: 0px;*/
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/*
+.circlepart {
+	height: 250px;
+}
+*/
+
+#showNews:hover {
+    cursor: pointer;
+}
+
+.rightmenu
+{
+    float: right;
+    /*position: absolute;*/
+    /*right: 0px;*/
+}
+.right {
+    /*box-shadow: 0px 0px 20px 15px #999;*/
+}
+/* end of - main areas */
+
+
+/* start of - elements in right */
+.rightbar {
+    height: 100px;
+    width: 100px;
+    background-color: #aba9ad;
+    padding-top: 20px;
+    margin-bottom: 10px;
+
+    float: right;
+    text-align: center;
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /*border: 1px solid lightgreen;*/
+
+    /*
+        border: 1px solid green;
+        box-shadow: inset 0px 0px 20px 5px green;*/
+}
+
+.rightbar:hover, .rightbar:focus {
+    /*width: 150px;*/
+    background-color: #aba111;
+}
+
+
+.rightinner{
+    position: relative;
+    top: 30%;
+    transform: translateY(-30%);
+}
+
+@media (max-width: 1000px) {
+    /*prej 768*/
+    .rightbar{
+        width: 100%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+        /*float:left;*/
+        position: relative;
+        left:10%;
+    }
+    .rightbar:hover, .rightbar:focus{
+        width: 100%;
+    }
+    .rightmenu
+    {
+        float: left;
+        width: 80%;
+    }
+}
+
+
+/* end of - elements in right */
+
+
+input, textarea{
+    font-size:18px;
+}
+
+.alignCenter{
+    text-align: center;
+}
+
+.rounded{
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.circled{
+    border-radius: 50%;
+}
+
+
+
+.cc1{
+    position: absolute;
+    top:30%;
+
+    height: 67%;
+    width: 860px;
+    z-index: 0;
+
+    /*visibility: hidden;*/
+    display: none;
+}
+
+
+#circle-content1{
+    /*overflow: scroll;*/
+    overflow-y: scroll;
+    /*width: 700px;*/
+}
+
+#circle-back1{
+    opacity:0.5;
+    background: white;
+}
+
+/*  */
+
+#circle-content2{
+    overflow: hidden;
+}
+
+#circle-back2{
+    opacity:0.5;
+    background: white;
+}
+
+.cc2{
+    position: absolute;
+    top: 2%;
+    right: 6%;
+
+    height: 625px;
+    width: 625px;
+    z-index: 0;
+
+    /*visibility: hidden;*/
+    display: none;
+}
+
+
+#circle-content3{
+    overflow-y: scroll;
+}
+
+#circle-back3{
+    opacity:0.5;
+    background: white;
+}
+
+.cc3{
+    position: absolute;
+    top: 2%;
+    right: 9%;
+
+    height: 500px;
+    width: 600px;
+    z-index: 0;
+
+    /*visibility: hidden;*/
+    display: none;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0px;
+    left: auto;
+    width: auto;
+    height: auto;
+}
+
+/* start of - colors */
+.white {
+    background: white;
+    /*border: 1px solid #999;
+    box-shadow: inset 0px 0px 20px 5px #999;*/
+}
+
+.pink {
+    background: #FF3385;
+    color: white;
+    /*border: 1px solid LightCoral;
+    box-shadow: inset 0px 0px 20px 5px LightCoral;*/
+}
+
+.red {
+    background: red;
+    /*    border: 1px solid red;
+        box-shadow: inset 0px 0px 10px 10px red;*/
+}
+
+.ciklam {
+    background: #FF0066;
+    color: white;
+    /*    border: 1px solid #ff00c1;
+        box-shadow: inset 0px 0px 20px 5px #dd00cc;*/
+}
+
+.blue {
+    background: #3366FF;
+    color: white;
+    /*    border: 1px solid Navy;
+        box-shadow: inset 0px 0px 20px 5px Navy;*/
+}
+
+.yellow {
+    background: yellow;
+    /*    border: 1px solid yellow;
+        box-shadow: inset 0px 0px 10px 10px yellow;*/
+}
+
+.lblue {
+    background: lightblue;
+    /*    border: 1px solid blue;
+        box-shadow: inset 0px 0px 20px 5px blue;*/
+}
+
+.gold {
+    background: #FF9900;
+    /*    border: 1px solid Goldenrod;
+        box-shadow: inset 0px 0px 20px 5px Goldenrod;*/
+}
+
+.green {
+    background: #66FF33;
+    /*color: white;*/
+    /*    border: 1px solid green;
+        box-shadow: inset 0px 0px 20px 5px green;*/
+}
+
+.purple {
+    background: purple;
+    color: white;
+    /*    border: 1px solid purple;
+        box-shadow: inset 0px 0px 10px 10px purple;*/
+}
+
+.orange {
+    background: #FF6600;
+    /*    border: 1px solid orange;
+        box-shadow: inset 0px 0px 10px 10px orange;*/
+}
+/* end of - colors */
